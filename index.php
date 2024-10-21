@@ -25,7 +25,10 @@
 
 	
 			
-	<!-- ici les pages d'inclusion -->
+	        <!-- ici les pages d'inclusion -->
+            <?php
+                include_once __DIR__ ."/controller/baseController.php";
+            ?>
 
 	</main>
 <footer>
