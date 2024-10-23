@@ -20,4 +20,4 @@
     }
     else{
         include_once "./page/index.html";
-    }
+}
