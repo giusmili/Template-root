@@ -24,10 +24,7 @@
             <span aria-hidden="true">🧑‍💻</span> EDW portfolio - développeur
         </h1>
         <?php
-            # code d'appel GET
-            if(isset($_GET['page'])){
-                print "Numéro de page : ".$_GET['page'];
-            }
+            include_once __DIR__ .'/controller/baseController.php';
 
 
         ?>
