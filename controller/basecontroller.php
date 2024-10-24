@@ -8,16 +8,16 @@
             # condition imbriquée
             $views = $_GET['page'];
             if($views == 1){
-                include_once __DIR__ .'/views/presentation.html';
+                include_once './views/presentation.html';
             }
             if($views == 2){
-                include_once __DIR__ .'/views/formation.html';
+                include_once  './views/formation.html';
             }
             if($views == 3){
-                include_once __DIR__ .'/views/about.html';
+                include_once  './views/about.html';
             }
             else if($views >= 3 || $views <= 0){
-                print "<p> Erreur : la page demandé n'existe pas!!";
+                print "<p  class=\"warning\"> Erreur : la page demandée n'existe pas!!</p>";
             }
         }
         else
