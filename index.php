@@ -25,6 +25,9 @@
         </h1>
         <?php
             # code d'appel GET
+            if(isset($_GET['page'])){
+                print "Numéro de page : ".$_GET['page'];
+            }
 
 
         ?>
